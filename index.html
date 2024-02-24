@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      body {
+      /* Replace with your image URL */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      height: 100vh;
+      overflow-y: auto; /* Allow vertical scroll */
+      }
+      .search-bar{
+        width: 100px;
+        max-width: 600px;
+        margin: auto;
+      }
+    </style>
+</head>
+<body style="background-image:url(https://scooboo.in/cdn/shop/files/PF-homepage_banner.jpg?v=1707968680&width=1920);">
+  <header>
+    <!--Our code start here-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://getbootstrap.com/docs/5.3/components/navbar/">Rainbow Rasscals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="https://www.tinyminymo.com/collections/stationery-love">Sell Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/account.html">Account</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="https://www.youtube.com/watch?v=GdrbE-s5DgQ" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"> CART</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=GdrbE-s5DgQ">Stationary</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/s/photos/source">shop now books</a></li>
+                <li><hr class="dropdown-divider" href="https://www.typingtest.com/">Shop now pens</li>
+                <li><hr class="dropdown-divider" href="https://www.typingtest.com/">Shop now color</li>
+                <li><hr class="dropdown-divider" href="https://www.typingtest.com/">Shop now A4 sheet</li>
+                <li><hr class="dropdown-divider" href="https://www.typingtest.com/">Shop now pencils</li>
+                <li><hr class="dropdown-divider" href="https://www.typingtest.com/">Shop now Glitter</li>
+                <li><a class="dropdown-item"href="https://www.google.com/maps/@30.3921333,77.9395964,15z?entry=ttu">Something else here</a></li>
+              </ul>
+            </li>
+           <li class="nav-item active">
+              <a class="nav-link-active" href="/login.html">Login</a></li>
+          </ul>
+          <form action="https://www.google.com/search" method="GET" target="_blank">
+            <div class="input-group">
+              <input type="text" class="form-control" name="q" placeholder="Search items ...." aria-label="Search" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </form>
+            <button class="btn btn-outline-success" type="submit">ADD TO CART<span class="badge  text-danger">44
+                <img class="rounded-circle me-1" width="24" height="24"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnlWEu2fQfKD1rJJYZHAawFbVVce__d3olMYmJJp4FA&s"alt="image"></span></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="alert alert-warning" role="alert">
+    <strong>Scoboo's Pen-Palooza</strong>: The Biggest Price Plunge only at Fab Pen Fest
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://scooboo.in/cdn/shop/files/pen_coll_3.jpg?v=1697093347&width=900" class="d-block w-100 "
+          height="500px" alt="copy">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="text-light">Welcome TO Stationary Shop</h2>
+            <p>PURCHASE BEAUTIFUL PRODUCT</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://scooboo.in/cdn/shop/files/planners_journals.jpg?v=1697516637&width=900" class="d-block w-100"
+          height="500px" alt="hello">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="text-light">The Best Stationary Shop</h2>
+            <p>PURCHASE BEAUTIFUL PRODUCT</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://scooboo.in/cdn/shop/files/files_folder_1.jpg?v=1697112202&width=900" class="d-block w-100"
+          height="500px" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="text-light">Welcome TO Stationary Shop</h2>
+            <p>PURCHASE BEAUTIFUL PRODUCT</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+  <div class="d-grid gap-2">
+    <button class="btn btn-secondary active" type="button">Features</button>
+  </div>
+  <div class="row featurette row-cols-1 row-cols-md-6 g-4 d-flex justify-content-center align-item-center ">
+    <div class="col" style="width: 16rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Stackable-Dino-Highlighter-7_360x.jpg?v=1697280932"
+          class="card-img-top w-80" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Stackable Highlighter</h5>
+          <p class="card-text">Rs.99.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Sanrio-Character-Charm-Gel-Pen-1_360x.png?v=1695974444"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Sanrio Character Gel Pen</h5>
+          <p class="card-text">Rs.120.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Adorable-Kuromi-Planner-15_360x.png?v=1695294547"
+          class="card-img-top w-100" height="200px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adorable Kuromi Planner</h5>
+          <p class="card-text">Rs.350.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Lovely-Bunny-Fountain-Pen-with-Refill_360x.jpg?v=1707214137"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Fountain Pen Refill</h5>
+          <p class="card-text">Rs.180.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+  <div class="col" style="width:18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Popsicle-Shaped-Eraser-Set-of-4-3_360x.jpg?v=1707823276"
+          class="card-img-top w-100 " height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Popsicle eraser</h5>
+          <p class="card-text">Rs.135.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width:18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Brachiosaurus-Glue-Stick_360x.jpg?v=1705753222"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Glue Stick</h5>
+          <p class="card-text">Rs.110.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width:18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Twin-Sisters-Pocket-Diary-1_360x.jpg?v=1705756027"
+          class="card-img-top w-100 " height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Twin Sister Diary</h5>
+          <p class="card-text">Rs.99.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Follow-Your-Dreams-Journal-Box-12_360x.jpg?v=1705669116"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title"> Dreams Journal Box</h5>
+          <p class="card-text">Rs.799.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width:18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Lovely-Animal-Sticky-Note_360x.jpg?v=1707217655"
+          class="card-img-top w-100 " height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Lovely Sticky Note</h5>
+          <p class="card-text">Rs.199.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width:18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Bee-utiful-Thoughts-Notebook-10_360x.png?v=1707477727"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Bee-utiful Notebook</h5>
+          <p class="card-text">Rs.699.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Lego-Pen_360x.jpg?v=1708352380" class="card-img-top w-100"
+          height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Lego Pen</h5>
+          <p class="card-text">Rs.55.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Kawaii-Bunny-Desk-Organiser-4_360x.jpg?v=1708174597"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Kawaii Desk</h5>
+          <p class="card-text">Rs.699.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/To-Do-List-Cute-Notepad-7_360x.jpg?v=1706689142"
+          class="card-img-top w-100 " height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">To-Do List Notepad</h5>
+          <p class="card-text">Rs.199.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Rocket-on-Cloud-LED-Desk-Lamp_360x.jpg?v=1705755987"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Cloud LED Desk Lemp</h5>
+          <p class="card-text">Rs.499.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="width: 18rem;">
+      <div class="card">
+        <img src="https://www.tinyminymo.com/cdn/shop/files/Pokemon-Erasers-Set-of-4-5_360x.jpg?v=1707914637"
+          class="card-img-top w-100" height="200px" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Pokemon Eraser</h5>
+          <p class="card-text">Rs.225.00</p>
+          <a href="#" class="btn btn-dark text-light">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav aria-label="Page navigation example pagination-center">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item bg-dark text-light"><a class="page-link" href="file:///C:/Users/shiva/OneDrive/Desktop/bootstrap/address.html">ORDER NOW</a></li>
+     <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+ <h2>DISCOVER CUTE STATIONERY ONLINE IN INDIA AT TINYMINYMO</h2>
+  <p>Stationery is basically writing materials required for writing such as pens, paper, notebooks, diaries, envelopes
+    and other office supplies. Previously, it was just restricted to all the standard supplies but nowadays, the time
+    has changed. Stationery has been changed to something cute & unique. It can give a sense of belongingness to a
+    person or a kid.
+    We can see a vivid market of cute stationery supplies these days both online and offline. </p>
+  <h4 class="poiter" hover onclick="myFunction()" id="my-Btn">Read more</h4>
+  <div id="shopify-section-footer" class="shopify-section">
+ </div>
+  </nav>
+  <div class="container-fluid bg-dark text-light d-flex justify-content-center align-item-center">
+    <footer class="py-5 justify-content-center align-item-center">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Products</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Popsicle eraser</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Glue Stick</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Twin Dairy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Journal Book</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Lovely Sticky Note</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Menu</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">sell online</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing & commision</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">delivering</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Shipping & return</a></li>
+          </ul>
+        </div>
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="1eso0m">
+            <button class="btn btn-primary" type="button" fdprocessedid="zbu04">Subscribe</button>
+          </div>
+        </form>
+        <p>&copysr; 2024 Stationary-Shop <a href="#">Privacy</a> . <a href="#">Terms</a></p>
+      
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>
